@@ -1,14 +1,14 @@
 @font-face {
     font-family: "OPTI";
-    src: url(Fonts/OPTIVenus-BoldExtended-2.otf);
+    src: url(OPTIVenus-BoldExtended-2.otf);
 }
 @font-face {
     font-family: "Neue 55";
-    src: url(Fonts/NHaasGroteskTXPro-55Rg.otf);
+    src: url(NHaasGroteskTXPro-55Rg.otf);
 }
 @font-face {
     font-family: "Neue med";
-    src: url(Fonts/NHaasGroteskMedium.otf);
+    src: url(NHaasGroteskMedium.otf);
 }
 
 *{
