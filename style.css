@@ -55,7 +55,7 @@ body::-webkit-scrollbar{
     font-size: 14px;
     background-color: transparent;
     cursor: pointer;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
 }
 #nav h4:hover{
     color: #afaca9e9;
@@ -79,7 +79,7 @@ body::-webkit-scrollbar{
 #txt h1 svg{
     background-color: transparent;
     margin-left: 20px;
-    animation: rotation 8s infinite linear;
+    animation: rotation 9s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -207,7 +207,7 @@ body::-webkit-scrollbar{
 }
 
 .svg {
-    animation: rotation 8s infinite linear;
+    animation: rotation 9s infinite linear;
 }
 
 @keyframes rotation {
@@ -220,7 +220,8 @@ body::-webkit-scrollbar{
     }
 }
 
-#para1 {
+
+#worktxt {
     color: rgb(226, 235, 205);
     position: absolute;
     left: 50%;
@@ -228,23 +229,14 @@ body::-webkit-scrollbar{
     transform: translate(-50%, -50%);
 }
 
-#para1 h1 {
-    font-size: 84px;
+#worktxt h1 {
+    font-size: 90px;
     font-family: "OPTI";
     color: rgb(214 209 206);
+    line-height: 95px;
+    letter-spacing: -1px;
 }
 
-#h22 {
-    display: flex;
-    align-items: center;
-
-}
-
-#h22 svg {
-    width: 75px;
-    margin-right: 25px;
-}
-    
     /* ATULLL */
 
 
@@ -436,7 +428,7 @@ body::-webkit-scrollbar{
 
 #textfour {
     position: absolute;
-    bottom: -23%;
+    bottom: -24%;
     font-size: 45px;
     color: #ffff;
     line-height: 70px;
@@ -451,7 +443,7 @@ body::-webkit-scrollbar{
 }
 
 #textfour h2 {
-    margin-left: 20px;
+    margin-left: 17px;
     font-size: 95px;
     font-weight: 400;
 }
@@ -463,6 +455,7 @@ body::-webkit-scrollbar{
 }
 
 #happy {
+    margin-top: 10px;
     display: flex;
     align-items: baseline;
 }
